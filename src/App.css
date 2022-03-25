@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.container-doggos {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.section-photos-dogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.item-img {
+  height: 350px;
+}
+
+.card-dog {
+  height: 200px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  background-color: rgb(209, 230, 230);
+}
+
+.card-dog > .photo {
+  background-image: url("https://images.dog.ceo/breeds/hound-ibizan/n02091244_1252.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 12px 0 0 12px;
+}
